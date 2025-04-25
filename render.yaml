@@ -4,4 +4,4 @@ services:
     env: static
     routes:
       - source: /
-        destination: /
+        destination: /index.html
