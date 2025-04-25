@@ -3,7 +3,7 @@ services:
     name: portafolio
     env: static
     routes:
-    -type: rewrite
+    - rewrite
       source: /
       destination: /index.html
     
