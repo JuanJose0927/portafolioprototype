@@ -3,7 +3,7 @@ services:
     name: portafolio
     env: static
     routes:
-    - type: static
-      source: /
+    - redirect:
+      source: /index
       destination: /index.html
     
