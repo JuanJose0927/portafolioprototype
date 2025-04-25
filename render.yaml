@@ -4,6 +4,6 @@ services:
     env: static
     routes:
     - rewrite
-      source: /
-      destination: /index.html
+      source= /
+      destination= /index.html
     
