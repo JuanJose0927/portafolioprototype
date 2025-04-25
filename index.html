@@ -27,17 +27,19 @@
 
     <section class="home" id="home">
         <div class="home-content">
-            <h1>Hi, it's <span>Juan José</span></h1>
+            <h1>Hi, I'm <span>Juan José</span></h1>
             <h3>I'm a <span>Frontend Developer</span></h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo libero, ipsa dolore, nostrum ipsum dolorem
-                architecto id, hic esse fugiat ducimus atque reiciendis explicabo? At voluptates sunt a dicta inventore.
-            </p>
+            <p>I specialize in building intuitive and responsive web applications using Angular, TypeScript, SCSS, and
+                REST APIs. With a strong eye for design and experience in Figma, I turn ideas into clean, efficient, and
+                user-friendly interfaces.</p>
 
             <div class="social-icons">
                 <a href="#"><i class="bx bxl-github"></i></a>
-                <a href="#"><i class="bx bxl-whatsapp"></i></a>
-                <a href="#"><i class="bx bxl-instagram-alt"></i></a>
-                <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+                <a
+                    href="https://wa.me/573154431441?text=Hola%20Juan%2C%20vi%20tu%20portafolio%20y%20me%20interesa%20contactarte"><i
+                        class="bx bxl-whatsapp"></i></a>
+                <a href="https://www.instagram.com/jj____arbelaez/"><i class="bx bxl-instagram-alt"></i></a>
+                <a href="https://www.linkedin.com/in/juanjose2004/"><i class="bx bxl-linkedin-square"></i></a>
             </div>
 
             <div class="btn-group">
@@ -56,18 +58,24 @@
         </div>
         <div class="about-content">
             <h2>About <span>Me</span></h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae molestiae eius accusantium quae
-                magnam porro quia dolor aliquam pariatur nihil adipisci harum odio fugiat quibusdam officiis
-                consequatur, accusamus vel dolorem.
-                Maiores suscipit fugiat laborum temporibus alias numquam ipsam recusandae ad voluptatem quisquam vero
-                commodi, quaerat vel a minus tempora. Aliquid eius obcaecati magnam modi alias id, ipsum ad a iste!
-                Dolorum aliquid eligendi animi illum eius ipsam repellat assumenda eos? Molestiae quas cupiditate
-                accusantium, totam perferendis iure vitae pariatur illum? Molestiae quod iure incidunt corrupti illo
-                fugit facilis natus quasi?
-                Natus, est? Perferendis ab expedita maiores earum nobis modi dolore et quia voluptatem inventore illo
-                minus voluptate ex sunt itaque blanditiis eum possimus debitis adipisci odio, veniam quos doloremque
-                porro?</p>
-            <a href="#" class="btn">Read More</a>
+            <p>✨ Hello, world! I'm a digital experience crafter born on September 27, 2004, proudly based in Colombia
+                🇨🇴, with a curious mind and a heart wired for tech. <br>
+
+                💻 As a frontend developer, I love bringing ideas to life through clean, interactive, and meaningful
+                interfaces. Code is my canvas, and tools like Angular, TypeScript, and Figma are my favorite brushes.
+                <br>
+
+                🏃‍♂️ When I’m not coding, you’ll probably find me hitting the court, diving into a good book, or
+                meditating to recharge my energy and sharpen my focus. I believe that great developers don’t just build
+                great apps—they build great lives too. <br>
+
+                🔄 I'm passionate about learning, staying ahead with new technologies, and exploring how digital
+                innovation can make a real difference in the world. I’m on a lifelong quest: to grow as a developer and
+                as a human being.
+
+                If I had a personal function, it would be:
+                <strong>const me = alwaysLearning();</strong>
+            </p>
         </div>
     </section>
 
@@ -79,27 +87,31 @@
                 <div class="service-info">
                     <i class="bx bxs-devices"></i>
                     <h4>Graphic Design</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptas sequi reprehenderit
-                        perferendis, sint necessitatibus corrupti sed sunt nulla explicabo. Tempore id voluptatibus vel,
-                        illum sunt dolores placeat cumque porro!</p>
+                    <p>I transform ideas into impactful visual designs using cutting-edge tools like
+                        <strong>Figma</strong> and <strong>Illustrator</strong>. From wireframes to production-ready
+                        designs, I ensure your brand looks professional and unique.
+                    </p>
                 </div>
             </div>
             <div class="service-box">
                 <div class="service-info">
                     <i class="bx bx-code"></i>
                     <h4>Backend Development</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptas sequi reprehenderit
-                        perferendis, sint necessitatibus corrupti sed sunt nulla explicabo. Tempore id voluptatibus vel,
-                        illum sunt dolores placeat cumque porro!</p>
+                    <p>I build robust, scalable solutions using <strong>Node.js</strong> and <strong>MySQL</strong>. I
+                        manage databases, APIs, and complex systems with precision, ensuring optimal performance and a
+                        seamless user experience.</p>
                 </div>
             </div>
             <div class="service-box">
                 <div class="service-info">
                     <i class="bx bx-code-curly"></i>
                     <h4>Frontend Development</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptas sequi reprehenderit
-                        perferendis, sint necessitatibus corrupti sed sunt nulla explicabo. Tempore id voluptatibus vel,
-                        illum sunt dolores placeat cumque porro!</p>
+                    <p>I create interactive, highly functional interfaces using <strong>Next.js</strong>,
+                        <strong>Angular 17+</strong>, <strong>React</strong>, <strong>CSS</strong>, and
+                        <strong>TailwindCSS</strong>, <strong>SaSS - ScSS</strong>, <strong>JavaScript</strong>, <strong>TypeScript</strong>. My focus is on performance,
+                        accessibility, and user experience,
+                        ensuring fast and visually appealing web applications.
+                    </p>
                 </div>
             </div>
         </div>
@@ -108,30 +120,32 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
 
-        <form action="">
+        <form onsubmit="sendToWhatsApp(event)">
             <div class="input-group">
                 <div class="input-box">
-                    <input type="text" placeholder="Full Name">
-                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Full Name" id="name">
+                    <input type="email" placeholder="Email" id="email">
                 </div>
                 <div class="input-box">
-                    <input type="number" placeholder="Phone Number">
-                    <input type="text" placeholder="Subject">
+                    <input type="number" placeholder="Phone Number" id="phone">
+                    <input type="text" placeholder="Subject" id="subject">
                 </div>
             </div>
             <div class="input-group">
-                <textarea name="" id="" cols="" rows="10" placeholder="Your Message"></textarea>
-                <input type="submit" value="Send Message" class="btn">
+                <textarea name="" id="message" cols="" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn" onclick="sendToWhatsApp()">
             </div>
         </form>
     </section>
 
     <footer class="footer">
         <div class="social-icons">
-            <a href="#"><i class="bx bxl-github"></i></a>
-            <a href="#"><i class="bx bxl-whatsapp"></i></a>
-            <a href="#"><i class="bx bxl-instagram-alt"></i></a>
-            <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+            <a href="https://github.com/JuanJose0927"><i class="bx bxl-github"></i></a>
+            <a
+                href="https://wa.me/573154431441?text=Hola%20Juan%2C%20vi%20tu%20portafolio%20y%20me%20interesa%20contactarte"><i
+                    class="bx bxl-whatsapp"></i></a>
+            <a href="https://www.instagram.com/jj____arbelaez/"><i class="bx bxl-instagram-alt"></i></a>
+            <a href="https://www.linkedin.com/in/juanjose2004/"><i class="bx bxl-linkedin-square"></i></a>
         </div>
         <ul class="list">
             <li>

@@ -19,6 +19,7 @@ html {
     --second-bg-color: #0c0a2e;
     --text-color: white;
     --main-color: #175cb6;
+    --img-selected: pointer;
 }
 
 
@@ -120,6 +121,7 @@ section {
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     transition: 0.4 ease-in-out;
+    cursor: var(--img-selected);
 }
 
 .home-img img:hover {
@@ -200,6 +202,7 @@ section {
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     transition: 0.4 ease-in-out;
+    cursor: var(--img-selected);
 }
 
 .about-img img:hover {
