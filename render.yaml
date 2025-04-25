@@ -4,6 +4,6 @@ services:
     env: static
     routes:
     - redirect:
-      source: /index
+      source: /index.html
       destination: /index.html
     
