@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: portafolio
+    env: static
+    routes:
+      - source: /
+        destination: /
